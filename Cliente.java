@@ -10,7 +10,8 @@ public class Cliente{
         BufferedReader in = new BufferedReader (new InputStreamReader(socket.getInputStream())); //permite leer entrada de datos
         PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()),true);
 
-	String c = "Hola!!!";
+	
+        String c = "Hola!!!";
         out.println(c);
 	String line = "";
 	while  ((line = in.readLine()) != null){
