@@ -1,7 +1,5 @@
 import java.net.InetAddress;
-
 import java.net.*;
-
 import java.io.*;
 import java.lang.management.*;
 public class Servidor{
